@@ -5,148 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-
-      .center-cover-img {
-        background-size: cover;
-        background-position: center;
-      }
-
-      header {
-        background-image: url("images/background.jpg");
-        height: 888px;
-      }
-
-      nav {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-between;
-        padding: 20px 20px;
-      }
-
-      .logo {
-        color: white;
-        font-size: 35px;
-      }
-
-      .nav-menu ul {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        list-style-type: none;
-        grid-gap: 30px;
-      }
-
-      .nav-menu ul li {
-        color: white;
-        font-weight: 800;
-      }
-
-      .search-box {
-        width: 430px;
-        display: inline-block;
-        background-color: white;
-        padding: 20px 30px;
-        position: relative;
-        left: 50px;
-        top: 10px;
-        border-radius: 6px;
-        box-shadow: 0 10px 10px 0 black;
-      }
-
-      .search-explain {
-        padding: 10px 0;
-        font-size: 30px;
-        font-weight: 800;
-        color: rgb(75, 75, 75);
-      }
-
-      table {
-        width: 100%;
-      }
-
-      .search-label {
-        font-size: 12px;
-        font-weight: 600;
-        padding: 10px;
-      }
-
-      .search-input {
-        padding: 10px;
-        height: 45px;
-        width: 100%;
-        font-size: 15px;
-      }
-
-      .search-button {
-        display: grid;
-        justify-content: end;
-        padding: 20px 0;
-      }
-
-      .search-button button {
-        background-color: #ff5a5f;
-        color: white;
-        width: 70px;
-        height: 45px;
-        font-size: 15px;
-        font-weight: 700;
-        border-radius: 6px;
-        border: 0;
-        cursor: pointer;
-      }
-
-      main {
-        margin: 30px 80px;
-      }
-
-      section {
-        margin: 30px 0;
-      }
-
-      .section-title {
-        font-size: 25px;
-        font-weight: 800;
-        color: rgb(68, 68, 68);
-        margin-bottom: 20px;
-      }
-
-      .category-box {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-      }
-
-      .category-card {
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        border: 1px solid whitesmoke;
-        border-radius: 6px;
-        box-shadow: 0 0 3px 0 rgb(68, 68, 68);
-      }
-
-      .category-img {
-        height: 70px;
-      }
-
-      .category-name {
-        display: grid;
-        align-items: center;
-        font-weight: 600;
-        margin-left: 10px;
-      }
-
-      .wide-area-img-1 {
-        border-radius: 20px;
-        margin: 40px 0;
-        background-image: url(images/wide1.jpg);
-        height: 350px;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
     <title>에어비엔비</title>
   </head>
   <body>
@@ -267,6 +126,183 @@
       <section>
         <div class="wide-area-img-1 center-cover-img"></div>
       </section>
+      
+      <section>
+        <div class="section-title">추천 여행지</div>
+        <div class="suggest-box">
+          <div
+           class="suggest-img center-cover-img"
+           style="background-image: url('images/suggest1.png')"
+          ></div>
+          <div
+            class="suggest-img center-cover-img"
+            style="background-image: url('images/suggest2.png')"
+          ></div>
+          <div
+            class="suggest-img center-cover-img"
+            style="background-image: url('images/suggest3.png')"
+          ></div>
+          <div
+            class="suggest-img center-cover-img"
+            style="background-image: url('images/suggest4.png')"
+          ></div>
+          <div
+            class="suggest-img center-cover-img"
+            style="background-image: url('images/suggest5.png')"
+          ></div>
+      </section>
+      
+      <section>
+        <div class="section-title"></div>
+        <div class="section-title">에어비엔비 플러스를 만나보세요!</div>
+        <div>퀄리티와 인테리어 디자인이 검증된 숙소 셀렉션</div>
+        <div class="wide-area-img-2 center-cover-img"></div>
+      </section>
+
+      <section>
+        <div class="section-title">전 세계 숙소</div>
+        <div class="host-box">
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host1.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">오두막 · BALIAN BEACH, BALI</div>
+              <div class="host-name">BALIAN TREEHOUSE w beautiful pool</div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">185</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host2.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">키클라데스 주택 · 이아(OIA)</div>
+              <div class="host-name">Unique Architecture Cave House</div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">188</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host3.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">
+                성 · 트웬티나인 팜스(TWENTYNINE PALMS)
+              </div>
+              <div class="host-name">Tile House</div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">367</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host4.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">검증됨 · 케이프타운</div>
+              <div class="host-name">
+                Modern, Chic Penthouse with Mountain, City & Sea Views
+              </div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">177</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host5.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">
+                아파트 전체 · 마드리드(MADRID)
+              </div>
+              <div class="host-name">솔광장에 위치한 개인 스튜디오</div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">459</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host6.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">집 전체 · HUMAC</div>
+              <div class="host-name">
+                Vacation house in etno-eco village Humac
+              </div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">119</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host7.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">개인실 · 마라케시</div>
+              <div class="host-name">The Cozy Palace</div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">559</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="host-card">
+            <div
+              class="host-img center-cover-img"
+              style="background-image: url('images/host8.png')"
+            ></div>
+            <div class="host-info">
+              <div class="host-type-location">
+                게스트용 별채 전체 · 로스앤젤레스
+              </div>
+              <div class="host-name">
+                Private Pool House with Amazing Views!
+              </div>
+              <div class="host-feedback">
+                <span class="host-star">⭐⭐⭐⭐⭐</span>
+                <span class="host-count">170</span>
+                <span class="host-grade">슈퍼호스트</span>
+              </div>
+            </div>
+          </div>
+      </section>
+
     </main>
   </body>
 </html>
